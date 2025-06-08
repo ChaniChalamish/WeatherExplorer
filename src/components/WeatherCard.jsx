@@ -11,7 +11,7 @@ const WeatherCard = (props) => {
   const getWeatherDetails = async (API_URL) => {
     setHasNoResults(false);
     try {
-      const response = await fetch();
+      const response = await fetch(API_URL);
       if (!response.ok) throw new Error();
        setHasNoResults(false);  
       const data = await response.json();
