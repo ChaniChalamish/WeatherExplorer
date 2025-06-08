@@ -16,6 +16,13 @@ Each city is shown in a neat card format, featuring:
 
 ---
 
+## 🖼️ App Preview
+
+![Screenshot](https://github.com/ChaniChalamish/WeatherExplorer/blob/main/public/Screenshots/screenshot.png)
+
+
+---
+
 ## 🚀 How to Run It Locally
 
 ### Step 1: Open your terminal
@@ -81,12 +88,6 @@ Creating this app involved a few learning curves:
 
 * 🧰 Switching to Vite – Adopting Vite over CRA meant learning a new configuration system and adjusting development habits.
 * 🌟 User Interface Polish – Balancing simplicity with clarity, including responsive card layouts and emoji indicators.
-
----
-
-## 🖼️ App Preview
-
-![Screenshot](https://github.com/ChaniChalamish/WeatherExplorer/raw/main/screenshots/screenshot.png)
 
 ---
 
