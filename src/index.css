@@ -94,6 +94,7 @@ body {
   max-width: min-content;
   max-height: min-content;
   margin: auto;
+  
 }
 .no-results .icon{
     width: 140px;
@@ -101,10 +102,12 @@ body {
 }
 .no-results .title {
   margin: 25px 0 15px;
+  direction: rtl;
 }
   
 .no-results .message {
   line-height: 23px;
+  direction: rtl;
 }
 /* Responsive media query code for small screen */
 @media (max-width: 624px) {
