@@ -41,7 +41,7 @@ const WeatherCard = (props) => {
     const defaultCity = props.city;
 
     const API_URL = `http://api.openweathermap.org/data/2.5/weather?q=${defaultCity}&units=metric&lang=HE&id=524901&appid=${API_KEY}`;
-    getWeatherDetails(API_URL);
+    getWeatherDetails();
   }, [cities]);
   return (
     <>

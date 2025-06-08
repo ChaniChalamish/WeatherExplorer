@@ -5,6 +5,7 @@ const CurrentWeather = ({ currentWeather }) => {
       <img
         src={`/icons/${currentWeather.weatherIcon}.svg`}
         className="weather-icon"
+        alt={`icon-${currentWeather.weatherIcon}`}
       />
       <h2 className="temperature">
         {currentWeather.temperature} <span>°C</span>

@@ -88,14 +88,12 @@ body {
   padding: 16px;
 }
 .no-results {
-  /* min-height: 460px; */
-  /* max-width: ; */
   display: flex;
-  color: #fff;
-  padding: 20px ;
-  text-align: center;
   align-items: center;
   flex-direction: column;
+  max-width: min-content;
+  max-height: min-content;
+  margin: auto;
 }
 .no-results .icon{
     width: 140px;
