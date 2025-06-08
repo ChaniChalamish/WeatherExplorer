@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#eef3ff, #c3d5f8);
+}
+#root {
+  width: 100%;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap row;
+
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  overflow: hidden;
+  max-width: 410px;
+  border-radius: 10px;
+  background: linear-gradient(#213163, #14313c);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  flex-direction: row;
+}
+.container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.95;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: url("clouds.png");
+}
+
+.weather-section :where(h2, p) {
+  color: #fff;
+}
+.current-weather {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 50px;
+  flex-direction: column;
+  margin: auto;
+}
+.current-weather .weather-icon {
+  width: 140px;
+  aspect-ratio: 1;
+}
+.current-weather .temperature {
+  margin: 18px 0;
+  display: flex;
+  font-size: 3.38rem;
+}
+.current-weather .temperature span {
+  font-size: 1.56rem;
+  font-weight: 400;
+  margin: 5px 0 0 2px;
+}
+.current-weather .description {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0 10px;
+}
+.current-weather .data-grid {
+  display: flex;
+  margin-bottom: -16px;
+}
+.current-weather .data-grid .data-item {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+.no-results {
+  /* min-height: 460px; */
+  /* max-width: ; */
+  display: flex;
+  color: #fff;
+  padding: 20px ;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.no-results .icon{
+    width: 140px;
+  aspect-ratio: 1;
+}
+.no-results .title {
+  margin: 25px 0 15px;
+}
+  
+.no-results .message {
+  line-height: 23px;
+}
+/* Responsive media query code for small screen */
+@media (max-width: 624px) {
+  body
+   {
+    padding: 20px;
+  }
+  .no-results {
+    padding: 30px;
+    min-height: 458px;
+  }
+}
