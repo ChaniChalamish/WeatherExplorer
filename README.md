@@ -79,8 +79,8 @@ GET https://api.openweathermap.org/data/2.5/weather?q=City&appid=API_KEY&units=m
 
 Creating this app involved a few learning curves:
 
-*🧰 Switching to Vite – Adopting Vite over CRA meant learning a new configuration system and adjusting development habits.
-*🌟 User Interface Polish – Balancing simplicity with clarity, including responsive card layouts and emoji indicators.
+* 🧰 Switching to Vite – Adopting Vite over CRA meant learning a new configuration system and adjusting development habits.
+* 🌟 User Interface Polish – Balancing simplicity with clarity, including responsive card layouts and emoji indicators.
 
 ---
 
