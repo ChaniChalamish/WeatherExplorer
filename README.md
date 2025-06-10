@@ -32,20 +32,20 @@ Each city is shown in a neat card format, featuring:
 ### Step 2: Set up a folder
 
 ```bash
-mkdir WeatherWise
-cd WeatherWise
+mkdir WeatherExplorer
+cd WeatherExplorer
 ```
 
 ### Step 3: Clone the repository
 
 ```bash
-git clone https://github.com/Noa123715/WeatherWise.git
+git clone https://github.com/ChaniChalamish/WeatherExplorer.git
 ```
 
 ### Step 4: Install dependencies
 
 ```bash
-cd weatherwise
+cd WeatherExplorer
 npm install
 ```
 
